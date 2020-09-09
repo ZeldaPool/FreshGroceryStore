@@ -1,0 +1,140 @@
+body {
+	font-family: 'Poppins', sans-serif;
+	background: #ffffff;
+}
+
+html,
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	overflow-x: hidden;
+}
+
+.navheadcon {
+	background-color: #ffde9b;
+}
+
+.btn-success {
+	background-color: rgb(91, 184, 114);
+}
+
+.navbarhead {
+	color: orangered;
+	font-weight: 700;
+}
+
+.btn-light {
+	background: none;
+	color: rgb(91, 184, 114);
+}
+
+h2 {
+	font-weight: 100;
+	font-size: 2.5rem;
+}
+
+.hash {
+	font-size: 1rem;
+	color: gray;
+}
+
+.margwun {
+	margin-top: 100px;
+	background-color: #fffbf2;
+}
+
+.jumbotron .display-4 {
+	font-weight: 750;
+	font-size: 3rem;
+}
+
+.boldhash {
+	font-weight: 600;
+}
+
+.jumbotron {
+	background-image: url("./headpat.png");
+	background-size: cover;
+}
+
+.jumbotron p {
+	font-weight: 500;
+}
+
+.cities p {
+	color: rgb(87, 86, 86);
+}
+
+.tick h3 {
+	font-size: 1rem;
+	font-weight: 600;
+}
+
+.redicon {
+	color: red;
+}
+
+.maintxt h4 {
+	font-size: 1rem;
+	font-weight: 600;
+}
+
+.sectiontxt {
+	font-size: 1rem;
+	font-weight: 600;
+}
+
+.together h3 {
+	font-weight: 600;
+	font-size: 1.5rem;
+}
+
+.together h4 {
+	color: gray;
+}
+
+.end h4 {
+	color: gray;
+	font-size: 0.9rem;
+	line-height: 2;
+}
+
+.end h3 {
+	font-size: 1.2rem;
+	font-weight: 700;
+}
+
+.endone p {
+	color: gray;
+	font-size: 0.7rem;
+	font-weight: 600;
+}
+
+.together img {
+	max-width: 150px;
+}
+
+.maintxt img {
+	max-width: 150px;
+}
+
+@media (max-width: 800px) {
+	.maintxt img {
+		max-width: 300px;
+	}
+
+	.together img {
+		max-width: 300px;
+	}
+
+	.navheadcon {
+		background-color: white;
+	}
+
+	.jumbotron {
+		background-color: #ffde9b;
+		background-size: contain;
+	}
+}
